@@ -7,13 +7,10 @@ using InteractiveUtils
 # ╔═╡ 7c389200-75d8-11eb-3a2f-f98cec9dc98e
 using Plots
 
-# ╔═╡ 987eed90-75f3-11eb-0607-c55202ba4852
+# ╔═╡ feb86d7e-75fc-11eb-1cc4-61c7c1b890c6
 begin
 	using DataFrames
 	using CSV
-	file = raw"C:\Users\Abhishek Swain\Desktop\PGD_UOH\datasets\iris.csv"
-	df = CSV.File(file) |> DataFrame
-	df[1:5, 1:5]
 end
 
 # ╔═╡ 110b84e0-75da-11eb-293f-637fab69d59e
@@ -127,13 +124,21 @@ md"""
 # Dataset
 """
 
+# ╔═╡ 12e05702-75fd-11eb-3add-d795a7c95701
+begin
+	file = raw"C:\Users\Abhishek Swain\Desktop\PGD_UOH\datasets\iris.csv"
+	df = CSV.File(file) |> DataFrame
+	df[1:5, 1:5]
+end
+
 # ╔═╡ Cell order:
-# ╟─7c389200-75d8-11eb-3a2f-f98cec9dc98e
-# ╟─110b84e0-75da-11eb-293f-637fab69d59e
-# ╟─617d9d20-75d8-11eb-04f4-094c7d702bfa
-# ╟─e7fff870-75d8-11eb-0f1f-d325ea2f777a
+# ╠═7c389200-75d8-11eb-3a2f-f98cec9dc98e
+# ╠═110b84e0-75da-11eb-293f-637fab69d59e
+# ╠═617d9d20-75d8-11eb-04f4-094c7d702bfa
+# ╠═e7fff870-75d8-11eb-0f1f-d325ea2f777a
 # ╟─6ef30220-7474-11eb-3d80-e9149a026851
-# ╟─39ad87a0-75bb-11eb-0dc8-43e6c44eea06
-# ╟─0a0e2fb0-75be-11eb-0f35-879a7f474dd9
+# ╠═39ad87a0-75bb-11eb-0dc8-43e6c44eea06
+# ╠═0a0e2fb0-75be-11eb-0f35-879a7f474dd9
 # ╟─4c0a10e0-75c4-11eb-298c-634317c01b11
-# ╠═987eed90-75f3-11eb-0607-c55202ba4852
+# ╠═feb86d7e-75fc-11eb-1cc4-61c7c1b890c6
+# ╠═12e05702-75fd-11eb-3add-d795a7c95701
