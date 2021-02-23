@@ -4,6 +4,33 @@
 using Markdown
 using InteractiveUtils
 
+# ╔═╡ 7c389200-75d8-11eb-3a2f-f98cec9dc98e
+using Plots
+
+# ╔═╡ 987eed90-75f3-11eb-0607-c55202ba4852
+begin
+	using DataFrames
+	using CSV
+	file = raw"C:\Users\Abhishek Swain\Desktop\PGD_UOH\datasets\iris.csv"
+	df = CSV.File(file) |> DataFrame
+	df[1:5, 1:5]
+end
+
+# ╔═╡ 110b84e0-75da-11eb-293f-637fab69d59e
+md"""
+# Equation of a straight line
+"""
+
+# ╔═╡ 617d9d20-75d8-11eb-04f4-094c7d702bfa
+function plot_line()
+	x = -5:5
+	y = -5:5
+	plot(x, y)
+end;
+
+# ╔═╡ e7fff870-75d8-11eb-0f1f-d325ea2f777a
+plot_line()
+
 # ╔═╡ 6ef30220-7474-11eb-3d80-e9149a026851
 md"""
 ``\large y = mx + c``
@@ -63,13 +90,13 @@ It's equation is:
 Below picture is what a vector is. It has a magnitude and a direction. 
 
 The magnitude of the above vector is calculated by: 
-$\large ||\vec u|| = \sqrt{a^2 + b^2}$. This is a **2-d** vector. 
+``\large ||\vec u|| = \sqrt{a^2 + b^2}``. This is a **2-d** vector. 
 
 For a **'d'** dimensional vector the formula is generalized to:
-$\large ||\vec x|| = \sqrt{x_1^2 + x_2^2 + \dots + x_d^2}$
+``\large ||\vec x|| = \sqrt{x_1^2 + x_2^2 + \dots + x_d^2}``
 
 The equation of a hyperplane: 
-$\large \pi_d : w_1x_1 + w_2x_2 + \dots + w_dx_d + w_0= 0$
+``\large \pi_d : w_1x_1 + w_2x_2 + \dots + w_dx_d + w_0= 0``
  
 can be rewritten in a matrix form using Linear algebra: 
 
@@ -100,12 +127,13 @@ md"""
 # Dataset
 """
 
-# ╔═╡ 6927ade0-75c4-11eb-3ef8-ff7b2740b6ec
-
-
 # ╔═╡ Cell order:
+# ╟─7c389200-75d8-11eb-3a2f-f98cec9dc98e
+# ╟─110b84e0-75da-11eb-293f-637fab69d59e
+# ╟─617d9d20-75d8-11eb-04f4-094c7d702bfa
+# ╟─e7fff870-75d8-11eb-0f1f-d325ea2f777a
 # ╟─6ef30220-7474-11eb-3d80-e9149a026851
 # ╟─39ad87a0-75bb-11eb-0dc8-43e6c44eea06
 # ╟─0a0e2fb0-75be-11eb-0f35-879a7f474dd9
 # ╟─4c0a10e0-75c4-11eb-298c-634317c01b11
-# ╠═6927ade0-75c4-11eb-3ef8-ff7b2740b6ec
+# ╠═987eed90-75f3-11eb-0607-c55202ba4852
