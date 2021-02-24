@@ -5,10 +5,10 @@ using Markdown
 using InteractiveUtils
 
 # ╔═╡ 7c389200-75d8-11eb-3a2f-f98cec9dc98e
-using Plots
-
-# ╔═╡ feb86d7e-75fc-11eb-1cc4-61c7c1b890c6
 begin
+	import Images
+	import ImageView
+	using Plots
 	using DataFrames
 	using CSV
 end
@@ -110,12 +110,6 @@ We can write this in a more concise way:
 ``\large W^Tx + w_0 = 0``
 """
 
-# ╔═╡ 39ad87a0-75bb-11eb-0dc8-43e6c44eea06
-begin
-	import Images
-	import ImageView
-end
-
 # ╔═╡ 0a0e2fb0-75be-11eb-0f35-879a7f474dd9
 Images.load(raw"C:\Users\Abhishek Swain\Desktop\PGD_UOH\imgs\vector_mag.png")
 
@@ -215,10 +209,8 @@ but ofcourse we can do away with the -ve sign as distance can't be negative. So,
 # ╟─617d9d20-75d8-11eb-04f4-094c7d702bfa
 # ╟─e7fff870-75d8-11eb-0f1f-d325ea2f777a
 # ╟─6ef30220-7474-11eb-3d80-e9149a026851
-# ╟─39ad87a0-75bb-11eb-0dc8-43e6c44eea06
 # ╟─0a0e2fb0-75be-11eb-0f35-879a7f474dd9
 # ╟─4c0a10e0-75c4-11eb-298c-634317c01b11
-# ╟─feb86d7e-75fc-11eb-1cc4-61c7c1b890c6
 # ╟─12e05702-75fd-11eb-3add-d795a7c95701
 # ╟─ee8918f0-75fd-11eb-0fe8-65686cde5245
 # ╟─4fcdcdd0-75ff-11eb-0399-cb9584a88a31
