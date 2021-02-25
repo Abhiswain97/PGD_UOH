@@ -182,11 +182,11 @@ Images.load(raw"C:\Users\Abhishek Swain\Desktop\PGD_UOH\imgs\plane-not-through-o
 md"""
 Equation of plane in vector form:
 
-`` \large w^Tx + w_0 = 0 `` 
-`` \large => ||w||||x||\cos\theta = 0 `` 
-`` \large => ||x||\cos\theta + w_0 = 0 `` (as ``\large w`` is a unit vector)  
-`` \large ||x||\cos\theta = a `` (from the figure) <br> 
-\
+`` \large w^Tx + w_0 = 0 `` \
+`` \large => ||w||||x||\cos\theta = 0 `` \
+`` \large => ||x||\cos\theta + w_0 = 0 `` (as ``\large w`` is a unit vector)   
+`` \large ||x||\cos\theta = a `` (from the figure)  
+
 So, finally ``\large a = -w_0``  
 
 As you can see, ``\large a`` is the distance of the plane from the origin. So, what we see is the distance of a plane not passing through origin is ``\large |w_0|`` provided ``\large w`` is a unit vector.  
@@ -216,4 +216,4 @@ but ofcourse we can do away with the -ve sign as distance can't be negative. So,
 # ╟─4fcdcdd0-75ff-11eb-0399-cb9584a88a31
 # ╟─a1c0a7c0-75ff-11eb-2737-ebd55bea7c9a
 # ╟─289c94c0-7600-11eb-3106-a5dc783e3e2d
-# ╟─46614730-7600-11eb-1d05-b1303c16f6ce
+# ╠═46614730-7600-11eb-1d05-b1303c16f6ce
