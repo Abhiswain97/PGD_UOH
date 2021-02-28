@@ -134,8 +134,8 @@ We can have a concise mathematical representation of a dataset as:
 
 ``\large D = \{(x_i, y_i); x_i \in R^d, y_i \in {c_1, c_2}\}``
 
-``\large x_i`` represents one feature vector(one row of columns except the target ones) \
-``\large y_i`` represents one target vector
+``\large x_i`` represents ``i^{th}`` feature vector \
+``\large y_i`` represents ``i^{th}`` target vector
 
 # Angle between Vectors
 """
@@ -212,8 +212,8 @@ but ofcourse we can do away with the -ve sign as distance can't be negative. So,
 # ╟─0a0e2fb0-75be-11eb-0f35-879a7f474dd9
 # ╟─4c0a10e0-75c4-11eb-298c-634317c01b11
 # ╟─12e05702-75fd-11eb-3add-d795a7c95701
-# ╟─ee8918f0-75fd-11eb-0fe8-65686cde5245
+# ╠═ee8918f0-75fd-11eb-0fe8-65686cde5245
 # ╟─4fcdcdd0-75ff-11eb-0399-cb9584a88a31
 # ╟─a1c0a7c0-75ff-11eb-2737-ebd55bea7c9a
 # ╟─289c94c0-7600-11eb-3106-a5dc783e3e2d
-# ╠═46614730-7600-11eb-1d05-b1303c16f6ce
+# ╟─46614730-7600-11eb-1d05-b1303c16f6ce
