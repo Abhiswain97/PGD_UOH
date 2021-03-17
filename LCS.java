@@ -1,5 +1,3 @@
-package Algorithms.Dynamic_Programming;
-
 import java.util.Arrays;
 
 /**
