@@ -16,7 +16,7 @@ delta = 0.1
 
 while x <= 10:
 
-    if x == 0: # avoid the nan case when x = 0 for sin(x)/x
+    if x == 0:  # avoid the nan case when x = 0 for sin(x)/x
         continue
 
     area += f(x) * delta
@@ -24,11 +24,20 @@ while x <= 10:
 
 print(f"area = {area}")
 
+
 #%%
 
-!git add .
-# %%
-!git commit -m "added numerical_integration.py"
-# %%
-!git push
-# %%
+# Improve using trapezoidal rule
+x = -10
+area = 0
+delta = 0.1
+
+while x <= 10:
+
+    if x == 0:  # avoid the nan case when x = 0 for sin(x)/x
+        continue
+
+    area += (f(x) + f(x + delta)) * (1 / 2) * delta
+    x += delta
+
+print(f"area = {area}")
