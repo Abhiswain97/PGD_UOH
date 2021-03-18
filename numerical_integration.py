@@ -16,7 +16,19 @@ delta = 0.1
 
 while x <= 10:
 
+    if x == 0:
+        continue
+
     area += f(x) * delta
     x += delta
 
 print(f"area = {area}")
+
+#%%
+
+!git add .
+# %%
+!git commit -m "added numerical_integration.py"
+# %%
+!git push
+# %%
