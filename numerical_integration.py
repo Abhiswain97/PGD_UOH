@@ -16,7 +16,7 @@ delta = 0.1
 
 while x <= 10:
 
-    if x == 0:
+    if x == 0: # avoid the nan case when x = 0 for sin(x)/x
         continue
 
     area += f(x) * delta
