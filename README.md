@@ -6,6 +6,9 @@ Contents:
 
 - [Preapratory sessions](https://github.com/Abhiswain97/PGD_UOH/tree/preparatory-sessions)
 
+- [Recursion & Dynamic Programming](https://github.com/Abhiswain97/PGD_UOH/tree/Recursion-and-DP): 
+  Currently contains solutions to many DP problems mostly in Java
+
 - [Code-walkthroughs](https://github.com/Abhiswain97/PGD_UOH/tree/code-walkthroughs)
   - [Problem 1: Add two randomly generated NumPy matrices using loops](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/random_numpy.py)
   - [Problem 2: Point inside (or) outside a circle](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/point_inside_circle.py)
