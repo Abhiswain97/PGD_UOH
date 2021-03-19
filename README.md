@@ -10,8 +10,8 @@ Contents:
   - [Problem 1: Add two randomly generated NumPy matrices using loops](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/random_numpy.py)
   - [Problem 2: Point inside (or) outside a circle](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/point_inside_circle.py)
   - [Problem 3: Resize NumPy n-dim arrays](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/resize_np_array.py)
-  - [Problem 4: Find peaks in an array](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/peak_find.py)
-  - [Problem 5: Permutations using recursion and itertools](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/permutations_and_combinations.py)
+  - [Problem 4: Find peaks in an array](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/peak_find.py) 
+  - [Problem 5: Permutations using recursion and itertools](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/permutations_and_combinations.py) [WIP]
   - [Problem 7: Numerical Integration](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/numerical_integration.ipynb)
   
   - [Exercise asnwers](https://github.com/Abhiswain97/PGD_UOH/tree/code-walkthroughs/exercise%20questions)
