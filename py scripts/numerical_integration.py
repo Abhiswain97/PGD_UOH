@@ -26,14 +26,13 @@ area = 0
 delta = 0.1
 
 while x <= 10:
-    print(x, area)
     if x == 0:  # avoid the nan case when x = 0 for sin(x)/x
         continue
 
     area += f(x) * delta
     x += delta
 
-print(f"area = {area}")
+print(f"area using rectangular rule = {area}")
 
 
 #%%
@@ -44,15 +43,13 @@ area = 0
 delta = 0.1
 
 while x <= 10:
-    print(x, area)
-
     if x == 0:  # avoid the nan case when x = 0 for sin(x)/x
         continue
 
     area += (f(x) + f(x + delta)) * (1 / 2) * delta
     x += delta
 
-print(f"area = {area}")
+print(f"area using trapezoidal rule = {area}")
 
 # %%
 
