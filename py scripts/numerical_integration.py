@@ -3,7 +3,10 @@ import math
 
 # %%
 def f(x):
-    return math.sin(x) / x
+    if x != 0:
+        return math.sin(x) / x
+    else:
+        return math.nan
 
 
 # Integrate f(x) from -10 to 10
@@ -15,7 +18,7 @@ area = 0
 delta = 0.1
 
 while x <= 10:
-
+    print(x, area)
     if x == 0:  # avoid the nan case when x = 0 for sin(x)/x
         continue
 
@@ -33,6 +36,7 @@ area = 0
 delta = 0.1
 
 while x <= 10:
+    print(x, area)
 
     if x == 0:  # avoid the nan case when x = 0 for sin(x)/x
         continue
@@ -41,3 +45,7 @@ while x <= 10:
     x += delta
 
 print(f"area = {area}")
+
+# %%
+
+# %%
