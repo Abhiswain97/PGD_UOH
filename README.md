@@ -4,7 +4,7 @@ This repo is a collection of Notes, assignments, code for my PG Diploma in ML & 
 
 ## Contents:
 
-- [Preapratory sessions](https://github.com/Abhiswain97/PGD_UOH/tree/preparatory-sessions)
+- [Preapratory sessions](https://github.com/Abhiswain97/PGD_UOH/tree/preparatory-sessions) [WIP]
 
 - [Recursion & Dynamic Programming](https://github.com/Abhiswain97/PGD_UOH/tree/Recursion-and-DP):
   Currently contains solutions to many DP problems mostly in Java
