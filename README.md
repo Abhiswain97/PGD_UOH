@@ -16,7 +16,10 @@ This repo is a collection of Notes, assignments, code for my PG Diploma in ML & 
   - [Problem 3: Resize NumPy n-dim arrays](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/resize_np_array.py)
   - [Problem 4: Find peaks in an array](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/peak_find.py)
   - [Problem 5: Permutations using recursion and itertools](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/permutations_and_combinations.py) [WIP]
+  - [Problem 6: Find x such that sin(x)=cos(x) using Bisection](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/root_finding.ipynb)
   - [Problem 7: Numerical Integration](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/numerical_integration.ipynb)
+  - [Problem 8: Find maxima of a function using code](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/find_maxima.ipynb)
+  - [Problem 9: Intersection of circles](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/intersect_circle.ipynb)
 
   - [Exercise asnwers](https://github.com/Abhiswain97/PGD_UOH/tree/code-walkthroughs/exercise%20questions)
     - [Solve for X](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/root_finding.ipynb)
