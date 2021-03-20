@@ -21,6 +21,7 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
   - [Problem 8: Find maxima of a function using code](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/find_maxima.ipynb)
   - [Problem 9: Intersection of circles](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/intersect_circle.ipynb)
 
-  - [Exercise asnwers](https://github.com/Abhiswain97/PGD_UOH/tree/code-walkthroughs/exercise%20questions)
+  - [Exercise solutions](https://github.com/Abhiswain97/PGD_UOH/tree/code-walkthroughs/exercise%20questions)
     - [Solve for X](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/root_finding.ipynb)
     - [Linear Algebra Foundations #5 - The 100th Power of a Matrix](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/ling_alg.ipynb)
+    - [Area between curves](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/area_between_cureves.ipynb)
