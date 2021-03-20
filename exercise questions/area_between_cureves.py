@@ -41,5 +41,5 @@ while x <= 4:
 
     x += delta
 
-print(f"Aread under the curve is: {area}")
+print(f"Aread between the curve is: {area}")
 # %%
