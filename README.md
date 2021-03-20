@@ -1,4 +1,4 @@
-# Diploma in AL/ML
+# Diploma in AI/ML
 
 This repo is a collection of everything related to my PG Diploma in ML & AI from the University of Hyderabad
 
