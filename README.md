@@ -30,4 +30,5 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
 - [Regex](https://github.com/Abhiswain97/PGD_UOH/tree/regex)
   - [Problems 1 - 2](https://github.com/Abhiswain97/PGD_UOH/blob/regex/LIVE_4_Strings_Regex.ipynb) 
   - [Problems 3 - 5](https://github.com/Abhiswain97/PGD_UOH/blob/regex/LIVE_5_Strings_Regexes_II.ipynb)
+  - [Regex apptern matching DP](https://github.com/Abhiswain97/PGD_UOH/blob/regex/LIVE_6_DP_inbuilt_DS.ipynb)
   - [Pratice](https://github.com/Abhiswain97/PGD_UOH/blob/regex/regex_tutorial.ipynb)
