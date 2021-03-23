@@ -26,3 +26,8 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
     - [Solve for X](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/root_finding.ipynb)
     - [Linear Algebra Foundations #5 - The 100th Power of a Matrix](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/ling_alg.ipynb)
     - [Area between curves](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/area_between_cureves.ipynb)
+    
+- [Regex](https://github.com/Abhiswain97/PGD_UOH/tree/regex)
+  - [Problems 1 - 2](https://github.com/Abhiswain97/PGD_UOH/blob/regex/LIVE_4_Strings_Regex.ipynb) 
+  - [Problems 3 - 5](https://github.com/Abhiswain97/PGD_UOH/blob/regex/LIVE_5_Strings_Regexes_II.ipynb)
+  - [Pratice](https://github.com/Abhiswain97/PGD_UOH/blob/regex/regex_tutorial.ipynb)
