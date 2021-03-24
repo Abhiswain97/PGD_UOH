@@ -32,3 +32,5 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
   - [Problems 3 - 5](https://github.com/Abhiswain97/PGD_UOH/blob/regex/LIVE_5_Strings_Regexes_II.ipynb)
   - [Regex pattern matching DP](https://github.com/Abhiswain97/PGD_UOH/blob/regex/LIVE_6_DP_inbuilt_DS.ipynb)
   - [Pratice](https://github.com/Abhiswain97/PGD_UOH/blob/regex/regex_tutorial.ipynb)
+
+- [Multi-processing & multi-threading](https://github.com/Abhiswain97/PGD_UOH/tree/multiprocessing-and-multithreading)
