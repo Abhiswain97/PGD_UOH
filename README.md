@@ -15,7 +15,7 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
   - [Problem 2: Point inside (or) outside a circle](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/point_inside_circle.py)
   - [Problem 3: Resize NumPy n-dim arrays](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/resize_np_array.py)
   - [Problem 4: Find peaks in an array](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/peak_find.py)
-  - [Problem 5: Permutations using recursion and itertools](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/py%20scripts/permutations_and_combinations.py) [WIP]
+  - [Problem 5: Permutations using recursion and itertools](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/permutations_and_combinations.ipynb) 
   - [Problem 6: Find x such that sin(x)=cos(x) using Bisection](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/root_finding.ipynb)
   - [Problem 7: Numerical Integration](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/numerical_integration.ipynb)
   - [Problem 8: Find maxima of a function using code](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/find_maxima.ipynb)
