@@ -20,6 +20,7 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
   - [Problem 7: Numerical Integration](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/numerical_integration.ipynb)
   - [Problem 8: Find maxima of a function using code](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/find_maxima.ipynb)
   - [Problem 9: Intersection of circles](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/intersect_circle.ipynb)
+  - [Problem 10: First digits of a factorial of a number](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/factorial_of_big_number.ipynb)
   - [Problem 11: Estimate the value of PI using Monte Carlo methods](https://github.com/Abhiswain97/PGD_UOH/blob/code-walkthroughs/Ipython%20notebook/estimate_pi.ipynb)
 
   - [Exercise solutions](https://github.com/Abhiswain97/PGD_UOH/tree/code-walkthroughs/exercise%20questions)
