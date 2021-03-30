@@ -35,3 +35,7 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
   - [Pratice](https://github.com/Abhiswain97/PGD_UOH/blob/regex/regex_tutorial.ipynb)
 
 - [Multi-processing & multi-threading](https://github.com/Abhiswain97/PGD_UOH/tree/multiprocessing-and-multithreading)
+
+## Books
+
+- [Python fundamentals - book 1](https://drive.google.com/file/d/1ZFY2NT8szGDrjc4p6D22vRhQiIe_d62t/view)
