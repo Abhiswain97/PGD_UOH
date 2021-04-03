@@ -36,6 +36,8 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
 
 - [Multi-processing & multi-threading](https://github.com/Abhiswain97/PGD_UOH/tree/multiprocessing-and-multithreading)
 
+- [SQL](https://github.com/Abhiswain97/PGD_UOH/tree/SQL)
+
 ## Books
 
 - [Python fundamentals - book 1](https://drive.google.com/file/d/1ZFY2NT8szGDrjc4p6D22vRhQiIe_d62t/view)
