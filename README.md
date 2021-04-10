@@ -6,6 +6,8 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
 
 - [Preapratory sessions](https://github.com/Abhiswain97/PGD_UOH/tree/preparatory-sessions) [WIP]
 
+- [Python for DS](https://github.com/Abhiswain97/PGD_UOH/tree/python-for-DS/DP%20sir%20notes)
+
 - [Recursion & Dynamic Programming](https://github.com/Abhiswain97/PGD_UOH/tree/Recursion-and-DP):
   Currently contains solutions to many DP problems mostly in Java
 
