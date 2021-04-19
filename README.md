@@ -40,6 +40,8 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
 
 - [SQL](https://github.com/Abhiswain97/PGD_UOH/tree/SQL)
 
+- [Plotting for EDA](https://github.com/Abhiswain97/PGD_UOH/tree/Plotting-for-EDA) 
+
 ## Books
 
 - [Python fundamentals - book 1](https://drive.google.com/file/d/1ZFY2NT8szGDrjc4p6D22vRhQiIe_d62t/view)
