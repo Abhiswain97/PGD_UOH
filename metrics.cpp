@@ -60,22 +60,19 @@ double mean_absolute_deviation(std::vector<double>& v) {
     return median(var);
 }
 
-double percentile_90(std::vector<double>& v) {
-    sort(v.begin(), v.end());
+double nth_percentile_linear(std::vector<double>& v, int n){
+    double x = (n/100.0) * (v.size() - 1) + 1;
 
-    return floor(0.90 * (v.size() + 1));
-}
+    int int_part = floor(x);
+    double decimal_part = x - int_part;
 
-double percentile_99(std::vector<double>& v){
-
-    sort(v.begin(), v.end());
-
-    return floor(0.99 * (v.size() + 1));
+    return v[int_part - 1] + decimal_part * ( v[int_part] - v[int_part -1 ]);
 }
 
 double IQR(std::vector<double>& v){ 
-    return floor(0.75 * (v.size() + 1)) - floor(0.25 * (v.size() + 1);
+    return nth_percentile_linear(v, 75) - nth_percentile_linear(v, 25);
 }
+
 
 int main(int argc, char const *argv[])
 {
@@ -95,11 +92,11 @@ int main(int argc, char const *argv[])
 
     std::cout << "mean absolute deviation: " << mean_absolute_deviation(v) << std::endl;
 
-    std::cout << "90th percentile: " << percentile_99(v) << std::endl;
+    std::cout << "90 th percentile: " << nth_percentile_linear(v, 90) << std::endl;
     
-    std::cout << "99th percentile: " << percentile_99(v) << std::endl;
+    std::cout << "99 th percentile: " << nth_percentile_linear(v, 99) << std::endl;
 
     std::cout << "Inter Quartile Range: " << IQR(v) << std::endl;
-    
+
     return 0;
 }

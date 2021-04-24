@@ -33,17 +33,15 @@ class Metrics:
             list(map(lambda x: abs(x - Metrics(self.v).median()), self.v))
         ).median()
 
-    def percentile_90(self):
-        return math.floor(0.90 * (self.size + 1))
-
-    def percentile_99(self):
-        return math.floor(0.99 * (self.size + 1))
-
     def nth_percentile(self, n):
-        return math.floor((n / 100) * (self.size + 1))
+        x = (n / 100 * (self.size - 1)) + 1
+
+        ipart = math.floor(x)
+        dpart = x % 1
+
+        return self.v[ipart - 1] + dpart * (self.v[ipart] - self.v[ipart - 1])
 
     def IQR(self):
-        print(self.nth_percentile(75), self.nth_percentile(25))
         return self.nth_percentile(75) - self.nth_percentile(25)
 
 
@@ -61,8 +59,8 @@ if __name__ == "__main__":
 
     print(f"Mean Absolute Deviation: {Metrics(a).mean_absolute_deviation()}")
 
-    print(f"90th percentile: {Metrics(a).percentile_90()}")
+    print(f"90th percentile: {Metrics(a).nth_percentile(90)}")
 
-    print(f"99th percentile: {Metrics(a).percentile_99()}")
+    print(f"99th percentile: {Metrics(a).nth_percentile(99)}")
 
     print(f"IQR: {Metrics(a).IQR()}")
