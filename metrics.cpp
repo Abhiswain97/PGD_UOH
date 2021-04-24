@@ -62,8 +62,24 @@ double mean_absolute_deviation(std::vector<double>& v) {
 
 double nth_percentile_linear(std::vector<double>& v, int n){
 
+    /*
+        This is percentile found using `linear` interpolation
+
+        More about it: https://en.wikipedia.org/wiki/Percentile#Second_variant,_%7F'%22%60UNIQ--postMath-0000004A-QINU%60%22'%7F 
+
+        v.sort()
+
+        x = ((n/100) * (v.size() - 1)) + 1 
+
+        i_p = floor(x)
+        d_p = x % 1 (or x - v2)
+
+        The equation is:
+            v_p = v[i_p] + d_p * (v[i_p + 1] - v2[i_p])
+    */
+
     sort(v.begin(), v.end());
-    
+
     double x = (n/100.0) * (v.size() - 1) + 1;
 
     int int_part = floor(x);
