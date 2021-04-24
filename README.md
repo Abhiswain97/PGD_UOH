@@ -41,6 +41,8 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
 - [SQL](https://github.com/Abhiswain97/PGD_UOH/tree/SQL)
 
 - [Plotting for EDA](https://github.com/Abhiswain97/PGD_UOH/tree/Plotting-for-EDA) 
+
+  - [Haberman EDA - WIP](https://github.com/Abhiswain97/PGD_UOH/blob/Plotting-for-EDA/haberman_EDA.ipynb) 
   - Metrics from scratch 
     - C++
       - [code](https://github.com/Abhiswain97/PGD_UOH/blob/Plotting-for-EDA/metrics.cpp)
