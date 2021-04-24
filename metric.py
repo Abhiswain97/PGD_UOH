@@ -34,6 +34,8 @@ class Metrics:
         ).median()
 
     def nth_percentile(self, n):
+        self.v.sort()
+
         x = (n / 100 * (self.size - 1)) + 1
 
         ipart = math.floor(x)

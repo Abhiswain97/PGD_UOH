@@ -61,6 +61,9 @@ double mean_absolute_deviation(std::vector<double>& v) {
 }
 
 double nth_percentile_linear(std::vector<double>& v, int n){
+
+    sort(v.begin(), v.end());
+    
     double x = (n/100.0) * (v.size() - 1) + 1;
 
     int int_part = floor(x);
