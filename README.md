@@ -54,3 +54,9 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
 ## Books
 
 - [Python fundamentals - book 1](https://drive.google.com/file/d/1ZFY2NT8szGDrjc4p6D22vRhQiIe_d62t/view)
+
+## Running Notes
+
+- [Essentials of AI](https://drive.google.com/drive/folders/1H4VDyDCqVxsPlANkpHoL3LqyB7SLYkED)
+
+
