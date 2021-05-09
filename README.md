@@ -56,12 +56,14 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
       - [notebook](https://github.com/Abhiswain97/PGD_UOH/blob/Plotting-for-EDA/Python_metrics.ipynb) 
 
 - Probability & Statistics
-  - [Probability theory notes](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/probability%20theory%20notes.pdf)
-  - [Distribution chart](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Distribution_chart.pdf) from Mathematical Statistics with Applications
-  - Detailed reference:
-    - Probability  
-      - [A first course in probability by  Sheldon Ross](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Ross_8th_ed_English.pdf) chapters: **1 - 5 & 8**
-    - Statistics 
+  - [Ipython notebooks](https://github.com/Abhiswain97/PGD_UOH/tree/Probability-and-stats/Ipython-notebooks) 
+  - Notes:
+    - [Probability theory notes](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/probability%20theory%20notes.pdf)
+    - [Distribution chart](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Distribution_chart.pdf) from Mathematical Statistics with Applications
+    - Detailed reference:
+      - Probability  
+        - [A first course in probability by  Sheldon Ross](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Ross_8th_ed_English.pdf) chapters: **1 - 5 & 8**
+      - Statistics 
    
 </details>
 
