@@ -1,4 +1,6 @@
-# Diploma in AI/ML
+<p align="center"> 
+  <h1>Diploma in AI/ML</h1>
+</p>
 
 This repo is a collection of everything related to my PG Diploma in ML & AI from the University of Hyderabad
 
@@ -55,8 +57,8 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
   - [Probability theory notes](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/probability%20theory%20notes.pdf)
   - [Distribution chart](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Distribution_chart.pdf) from Mathematical Statistics with Applications
   - Detailed reference: [A first course in probability by  Sheldon Ross](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Ross_8th_ed_English.pdf) chapters: **1 - 5 & 8** 
-
-## Books
+ 
+## Books by University
 
 - [Python fundamentals - book 1](https://drive.google.com/file/d/1ZFY2NT8szGDrjc4p6D22vRhQiIe_d62t/view)
 
