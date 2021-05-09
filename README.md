@@ -53,14 +53,21 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
 
 - Probability
   - [Probability theory notes](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/probability%20theory%20notes.pdf)
+  - Detailed reference: [A first course in probability by  Sheldon Ross](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Ross_8th_ed_English.pdf) chapters: **1 - 5 & 8** 
 
 ## Books
 
 - [Python fundamentals - book 1](https://drive.google.com/file/d/1ZFY2NT8szGDrjc4p6D22vRhQiIe_d62t/view)
 
+## Reference books
+
+- [A first course in probability by  Sheldon Ross](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Ross_8th_ed_English.pdf)
+
 ## Running Notes
 
 - [Essentials of AI](https://drive.google.com/drive/folders/1H4VDyDCqVxsPlANkpHoL3LqyB7SLYkED)
 - [Plotting for EDA](https://docs.google.com/document/d/1VyVS_NKuVZ4T9628tvWEQzNHjp2HOu0VbaEjO8TcT6k/edit)
+
+> Books downloaded using [libgen.is](https://libgen.is/) 
 
 
