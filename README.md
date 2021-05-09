@@ -51,6 +51,9 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
       - [code](https://github.com/Abhiswain97/PGD_UOH/blob/Plotting-for-EDA/metric.py) 
       - [notebook](https://github.com/Abhiswain97/PGD_UOH/blob/Plotting-for-EDA/Python_metrics.ipynb) 
 
+- Probability
+  - [Probability theory notes](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/probability%20theory%20notes.pdf)
+
 ## Books
 
 - [Python fundamentals - book 1](https://drive.google.com/file/d/1ZFY2NT8szGDrjc4p6D22vRhQiIe_d62t/view)
