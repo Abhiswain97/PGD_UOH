@@ -53,6 +53,7 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
 
 - Probability
   - [Probability theory notes](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/probability%20theory%20notes.pdf)
+  - [Distribution chart](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Distribution_chart.pdf) from Mathematical Statistics with Applications by Dennis D. Wackerly, William Mendenhall III, Richard L. Scheaffer 
   - Detailed reference: [A first course in probability by  Sheldon Ross](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Ross_8th_ed_English.pdf) chapters: **1 - 5 & 8** 
 
 ## Books
