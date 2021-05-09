@@ -68,6 +68,6 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
 - [Essentials of AI](https://drive.google.com/drive/folders/1H4VDyDCqVxsPlANkpHoL3LqyB7SLYkED)
 - [Plotting for EDA](https://docs.google.com/document/d/1VyVS_NKuVZ4T9628tvWEQzNHjp2HOu0VbaEjO8TcT6k/edit)
 
-### > Books downloaded using [libgen.is](https://libgen.is/) 
+> ### Books downloaded using [libgen.is](https://libgen.is/) 
 
 
