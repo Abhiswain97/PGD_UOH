@@ -5,6 +5,8 @@
 This repo is a collection of everything related to my PG Diploma in ML & AI from the University of Hyderabad
 
 ## Contents:
+<details>
+  <summary>see contents</summary>
 
 - [Preapratory sessions](https://github.com/Abhiswain97/PGD_UOH/tree/preparatory-sessions) [WIP]
 
@@ -60,6 +62,9 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
     - Probability  
       - [A first course in probability by  Sheldon Ross](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Ross_8th_ed_English.pdf) chapters: **1 - 5 & 8**
     - Statistics 
+   
+</details>
+
  
 ## Books by University
 
