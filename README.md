@@ -66,14 +66,23 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
 - [Python fundamentals - book 1](https://drive.google.com/file/d/1ZFY2NT8szGDrjc4p6D22vRhQiIe_d62t/view)
 
 ## Reference books
+<details>
+  <summary>books</summary>
 
 - [A first course in probability by  Sheldon Ross](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Ross_8th_ed_English.pdf)
 - [Mathematical Statistics with Applications by Dennis D. Wackerly, William Mendenhall III, Richard L. Scheaffer](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Dennis%20D.%20Wackerly%2C%20William%20Mendenhall%2C%20Richard%20L.%20Scheaffer%20-%20Mathematical%20Statistics%20with%20Applications-Cengage%20Learning%20(2008).pdf)
 
+</details>
+
 ## Running Notes
+
+<details>
+  <summary>notes</summary>
 
 - [Essentials of AI](https://drive.google.com/drive/folders/1H4VDyDCqVxsPlANkpHoL3LqyB7SLYkED)
 - [Plotting for EDA](https://docs.google.com/document/d/1VyVS_NKuVZ4T9628tvWEQzNHjp2HOu0VbaEjO8TcT6k/edit)
+
+</details>
 
 > ### Books downloaded using [libgen.is](https://libgen.is/) 
 
