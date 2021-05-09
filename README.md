@@ -51,9 +51,9 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
       - [code](https://github.com/Abhiswain97/PGD_UOH/blob/Plotting-for-EDA/metric.py) 
       - [notebook](https://github.com/Abhiswain97/PGD_UOH/blob/Plotting-for-EDA/Python_metrics.ipynb) 
 
-- Probability
+- Probability & Statistics
   - [Probability theory notes](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/probability%20theory%20notes.pdf)
-  - [Distribution chart](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Distribution_chart.pdf) from Mathematical Statistics with Applications by Dennis D. Wackerly, William Mendenhall III, Richard L. Scheaffer 
+  - [Distribution chart](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Distribution_chart.pdf) from Mathematical Statistics with Applications
   - Detailed reference: [A first course in probability by  Sheldon Ross](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Ross_8th_ed_English.pdf) chapters: **1 - 5 & 8** 
 
 ## Books
@@ -63,6 +63,7 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
 ## Reference books
 
 - [A first course in probability by  Sheldon Ross](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Ross_8th_ed_English.pdf)
+- [Mathematical Statistics with Applications by Dennis D. Wackerly, William Mendenhall III, Richard L. Scheaffer](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Dennis%20D.%20Wackerly%2C%20William%20Mendenhall%2C%20Richard%20L.%20Scheaffer%20-%20Mathematical%20Statistics%20with%20Applications-Cengage%20Learning%20(2008).pdf)
 
 ## Running Notes
 
