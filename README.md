@@ -5,8 +5,6 @@
 This repo is a collection of everything related to my PG Diploma in ML & AI from the University of Hyderabad
 
 ## Contents:
-<details>
-  <summary>see contents</summary>
 
 - [Preapratory sessions](https://github.com/Abhiswain97/PGD_UOH/tree/preparatory-sessions) [WIP]
 
@@ -69,10 +67,6 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
 - Simulations (Applied Probability and Statistics)
   - [CLT, CI, Hypothesis testing](https://github.com/Abhiswain97/PGD_UOH/blob/Simulation-Applied-Prob-Stats/Central_Limit_theorem_Copy1.ipynb) 
   - [QQ Plot, Box-cox transform, Bootstrapping, A/B testing](https://github.com/Abhiswain97/PGD_UOH/blob/Simulation-Applied-Prob-Stats/LIVE_Probability_Stats.ipynb)
-    
-   
-</details>
-
  
 ## Books by University
 <details>
