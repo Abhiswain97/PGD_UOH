@@ -64,7 +64,7 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
       - Statistics 
         - [Mathematical Statistics with Applications by Dennis D. Wackerly, William Mendenhall III, Richard L. Scheaffer](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Dennis%20D.%20Wackerly%2C%20William%20Mendenhall%2C%20Richard%20L.%20Scheaffer%20-%20Mathematical%20Statistics%20with%20Applications-Cengage%20Learning%20(2008).pdf) chapters: **8 & 10**
 
-- Simulations (Applied Probability and Statistics)
+- [Simulations (Applied Probability and Statistics)](https://github.com/Abhiswain97/PGD_UOH/tree/Simulation-Applied-Prob-Stats)
   - [CLT, CI, Hypothesis testing](https://github.com/Abhiswain97/PGD_UOH/blob/Simulation-Applied-Prob-Stats/Central_Limit_theorem_Copy1.ipynb) 
   - [QQ Plot, Box-cox transform, Bootstrapping, A/B testing](https://github.com/Abhiswain97/PGD_UOH/blob/Simulation-Applied-Prob-Stats/LIVE_Probability_Stats.ipynb)
  
