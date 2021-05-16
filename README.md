@@ -64,6 +64,10 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
       - Probability  
         - [A first course in probability by  Sheldon Ross](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Ross_8th_ed_English.pdf) chapters: **1 - 5 & 8**
       - Statistics 
+        - [Mathematical Statistics with Applications by Dennis D. Wackerly, William Mendenhall III, Richard L. Scheaffer](https://github.com/Abhiswain97/PGD_UOH/blob/Probability-and-stats/Dennis%20D.%20Wackerly%2C%20William%20Mendenhall%2C%20Richard%20L.%20Scheaffer%20-%20Mathematical%20Statistics%20with%20Applications-Cengage%20Learning%20(2008).pdf) chapters: **8 & 10**
+
+- Simulations (Applied Probability and Statistics)
+    
    
 </details>
 
