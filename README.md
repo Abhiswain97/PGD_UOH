@@ -67,7 +67,11 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
 - [Simulations (Applied Probability and Statistics)](https://github.com/Abhiswain97/PGD_UOH/tree/Simulation-Applied-Prob-Stats)
   - [CLT, CI, Hypothesis testing](https://github.com/Abhiswain97/PGD_UOH/blob/Simulation-Applied-Prob-Stats/Central_Limit_theorem_Copy1.ipynb) 
   - [QQ Plot, Box-cox transform, Bootstrapping, A/B testing](https://github.com/Abhiswain97/PGD_UOH/blob/Simulation-Applied-Prob-Stats/LIVE_Probability_Stats.ipynb)
- 
+
+- [Dimensionality Reduction]
+  - PCA
+  - t-SNE 
+
 ## Books by University
 <details>
   <summary>view</summary>
