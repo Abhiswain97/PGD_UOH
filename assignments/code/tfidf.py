@@ -1,12 +1,9 @@
 from functools import reduce
 from operator import concat
 from collections import Counter
-from typing import List
+from typing import Dict, List, Optional, Tuple
 import math
 import pprint
-import numpy as np
-
-from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 class Tfidf:
@@ -14,9 +11,11 @@ class Tfidf:
         self.corpus: List[str] = corpus
         self.word_list: List[List[str]] = list(
             map(lambda x: x.split(), self.corpus))
-        self.flattened_word_list: List[str] = reduce(concat, self.word_list)
+        self.flattened_word_list: List[str] = reduce(
+            concat, self.word_list  # type: ignore  # https://github.com/python/mypy/issues/4673
+        )
 
-    def _word_frequency(self, document: str = None) -> Counter:
+    def _word_frequency(self, document: List[str] = None) -> Counter:
         """
         Calculates the word frequency.
         If document=None, then it creates a Counter dict of all the words in the corpus
@@ -40,12 +39,11 @@ class Tfidf:
                 self._word_frequency().values())
         )
 
-    def compute_tf(self, word, document):
-        tf_dict = {}
+    def compute_tf(self, word: str, document: List[str] = None) -> float:
         count = self._word_frequency(document=document)
-        return count[word] / sum(count.values())
+        return (count[word]) / (sum(count.values()))
 
-    def compute_idf(self):
+    def compute_idf(self) -> Dict[str, float]:
         idf_dict = {}
 
         N = len(self.word_list)
@@ -60,22 +58,30 @@ class Tfidf:
 
         return idf_dict
 
-    def compute_tfidf(self):
+    def compute_tfidf(
+        self, rounding_factor: int = 2
+    ) -> Tuple[Dict[Tuple[str, int], float], List[List[int]]]:
 
         idf = self.compute_idf()
 
         tfidf = {}
+        tfidf_vec = [
+            [0] * self._total_count(unique=True) for _ in range(len(self.word_list))
+        ]
 
         for i, words in enumerate(self.word_list):
             for j, word in enumerate(self.unique_words()):
-                tfidf[word, i] = round(
-                    self.compute_tf(word=word, document=words) * idf[word], 2
+                value = round(
+                    self.compute_tf(word=word, document=words) * idf[word],
+                    rounding_factor,
                 )
+                tfidf[word, i] = value
+                tfidf_vec[i][j] = value  # type: ignore
 
-        return tfidf
+        return tfidf, tfidf_vec
 
     def transform(self):
-        tfidf_dict_tuple = self.compute_tfidf()
+        tfidf_dict_tuple, tfidf_vec = self.compute_tfidf()
 
         tfidf = []
 
@@ -96,33 +102,16 @@ if __name__ == "__main__":
         "is this the first document here",
     ]
 
-    tfidf_sklearn = TfidfVectorizer()
-
-    # print(tfidf_sklearn.fit_transform(corpus))
+    corpus2 = """
+    TF-IDF (term frequency-inverse document frequency) was invented for document search and information retrieval.
+    It works by increasing proportionally to the number of times a word appears in a document,
+    but is offset by the number of documents that contain the word.
+    So, words that are common in every document, such as this,
+    what, and if, rank low even though they may appear many times,
+    since they don’t mean much to that document in particular.
+    """
 
     tfidf = Tfidf(corpus=corpus)
 
-    # print(tfidf.compute_tfidf())
-
-    # print(tfidf.transform())
-
-    X_custom = tfidf.transform()
-
-    X_grader = np.array(
-        [[0, 0, 0, 0.12, 0.05, 0.23],
-         [0, 0.1, 0, 0, 0.23, 0.1],
-         [0.23, 0, 0, 0, 0.23, 0.23],
-         [0, 0, 0, 0.12, 0.05, 0.23]]
-    )
-
-    # compare X_grader and X_custom
-    comparison = (X_grader == X_custom)
-    isEqual = comparison.all()
-
-    if isEqual:
-        print("******** Success ********")
-    else:
-        print("####### Failed #######")
-        print("\nX_grader = \n\n", X_grader)
-        print("\n", "*"*50)
-        print("\nX_custom = \n\n", X_custom)
+    pprint.pprint(tfidf.compute_tfidf())
+    pprint.pprint(tfidf.transform())
