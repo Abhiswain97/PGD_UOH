@@ -72,8 +72,10 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
   - PCA
   - t-SNE 
 
-<!-- - [Machine Learning]()
-  - [Text preprocessing](https://github.com/Abhiswain97/PGD_UOH/blob/Machine-learning/Amazon_Fine_Food_Reviews_Analysis.ipynb)  -->
+- [Machine Learning](https://github.com/Abhiswain97/PGD_UOH/tree/Machine-learning) \
+  [Check-out my other repo where I code ML algos from scratch](https://github.com/Abhiswain97/ML-from-scratch)
+  - [Text preprocessing](https://github.com/Abhiswain97/PGD_UOH/blob/Machine-learning/Amazon_Fine_Food_Reviews_Analysis.ipynb)
+  - [Assignement solution](https://github.com/Abhiswain97/ML-from-scratch/blob/master/NLP/feature_extraction/Tfidf.py)
 
 ## Books by University
 <details>
