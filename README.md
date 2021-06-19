@@ -4,6 +4,8 @@
 
 This repo is a collection of everything related to my PG Diploma in ML & AI from the University of Hyderabad
 
+Check-out my other repo: [ML from scratch](https://github.com/Abhiswain97/ML-from-scratch) where I code ML algos from scratch
+
 ## Contents:
 
 - [Preapratory sessions](https://github.com/Abhiswain97/PGD_UOH/tree/preparatory-sessions) [WIP]
@@ -73,7 +75,6 @@ This repo is a collection of everything related to my PG Diploma in ML & AI from
   - t-SNE 
 
 - [Machine Learning](https://github.com/Abhiswain97/PGD_UOH/tree/Machine-learning) \
-  [Check-out my other repo where I code ML algos from scratch](https://github.com/Abhiswain97/ML-from-scratch)
   - [Text preprocessing](https://github.com/Abhiswain97/PGD_UOH/blob/Machine-learning/Amazon_Fine_Food_Reviews_Analysis.ipynb)
   - [Assignement solution](https://github.com/Abhiswain97/ML-from-scratch/blob/master/NLP/feature_extraction/Tfidf.py)
 
